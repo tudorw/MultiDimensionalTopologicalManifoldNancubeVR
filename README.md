@@ -26,7 +26,32 @@ dimension reduction to bring that data into 3d
 , then stream that data into a hyperspatial nanocube (like https://github.com/laurolins/nanocube)
 
 then use https://github.com/nadirhamid/topologicPy 
+Using the module
+There is an example.py test file we have used to test the module. This example shows how you can use the Python/C++ to make calls directly to Topologic:
 
+# import the topologic submodules
+from topologic import Vertex, Edge, Wire, Face, Shell, Cell, CellComplex, Cluster, Graph, Topology
+
+# create a vertex
+v1 = Vertex.ByCoordinates(0,0,0) 
+
+# create another vertex
+v2 = Vertex.ByCoordinates(20,20,20)
+
+# create an edge from the two vertices
+e1 = Edge.ByStartVertexEndVertex(v1, v2)
+
+# retrieve the coordinate from the start vertex of e1
+sv = e1.StartVertex()
+print("   "+str([sv.X(), sv.Y(), sv.Z()]))
+
+# retrieve the coordinate from the end vertex of e1
+ev = e1.EndVertex()
+print("   "+str([ev.X(), ev.Y(), ev.Z()]))
+
+# retrieve the coordinates of the centroid of e1
+cv = Topology.Centroid(e1)
+print("   "+str([cv.X(), cv.Y(), cv.Z()]))
 blender/three.js/D3
 
 a graph is a graph is a graph
