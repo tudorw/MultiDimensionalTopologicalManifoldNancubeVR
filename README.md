@@ -25,7 +25,7 @@ dimension reduction to bring that data into 3d
 
 , then stream that data into a hyperspatial nanocube (like https://github.com/laurolins/nanocube)
 
-then use https://github.com/nadirhamid/topologicPy 
+then use https://github.com/wassimj/topologicpy
 Using the module
 There is an example.py test file we have used to test the module. This example shows how you can use the Python/C++ to make calls directly to Topologic:
 
