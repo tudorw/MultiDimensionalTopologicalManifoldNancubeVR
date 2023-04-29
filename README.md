@@ -1,3 +1,5 @@
+![image](https://user-images.githubusercontent.com/1279930/235326592-22d9a514-b61a-4226-b66e-b410472266b5.png)
+
 ![grid_0 (4)](https://user-images.githubusercontent.com/1279930/235110231-86d6056a-8bf8-4ffe-bb0a-d5900e076cde.png)
 
 THe above is an AI's vision of a multidimensional topological manifold;
