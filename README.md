@@ -4,6 +4,8 @@
 
 "Formally an n-dimensional manifold is a *Hausdorff *topological space X in which every point has a *neighbourhood which is *homeomorphic to n-dimensional *Euclidean space
 
+(https://secret-memories.s3.amazonaws.com/user-videos/e95159ba-ad6e-401f-b599-a3741c18005b_clean_video_s3_key.mp4?AWSAccessKeyId=AKIASWOMRRLR65R6NNXD&Expires=1683618144&Signature=oyzi52IZ5oqkBkHawwQ%2B7r9F0HE%3D)
+
 THe above is an AI's vision of a multidimensional topological manifold;
 
 chatGPT says;
